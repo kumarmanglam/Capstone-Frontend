@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.SignPage{
+    background-color: #EBEFF5;
+    height: 100vh;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formCard{    
+    background-color: white;
+    padding: 25px;
+    margin-top: 60px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signTagLine{  
+    font-size: 24px;
+    font-family: "Lora", serif;
+}
+
+.signTagLineMiddle{
+    font-size: 32px;
+    font-weight: 700;
+    color: #008DDA
+}
+
+.signHead{ 
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.formInput{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EBEFF5;
+    width: 250px;
+}
+
+.formButton{
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #008DDA;
+    font-weight: 500;
+    width: 250px;
+    font-size: 20px;
+    color: #EBEFF5;
+    cursor: pointer;
+}
+
+.formPageHead{
+    font-weight: 600;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #008DDA;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageContainer{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.forgotMsg{
+    font-size: 12px;
+    text-align: right;
+    cursor: pointer;
+}
+.formMsg{
+    font-size: 12px;
+    cursor: pointer;
+}
+.headBtn{
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: white;
+    color:  #008DDA;
+    border-radius: 10px;
+}

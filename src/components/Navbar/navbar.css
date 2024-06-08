@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.navigate{
+    font-weight: 600;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #008DDA;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navHead{
+    text-align: center;
+}
+.logoutBtn{
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: white;
+    color:  #008DDA;
+    border-radius: 10px;
+}
+.navigate-second{
+    display: flex;
+    gap: 15px;
+}
+.navName{
+    text-transform: capitalize;
+}

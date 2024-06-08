@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden; 
+}
+.todoPage{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 30px;
+    min-height: calc(100vh - 112px); 
+}
+.tableContainer{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 10px ;
+}
+.formGroup{
+    display: flex;
+    gap: 5px;
+}
+.customTable {
+    margin: 0 15px;
+    max-width: 80vw;
+    width: 100%;
+    color: rgb(62, 61, 61);
+  }
+.completeCol{
+    width: 70px;        
+}
+.customTable th, .customTable td {
+    border: 1px solid #D0E2EE;
+    padding: 12px;
+}
+.customTable th {
+    background-color: #D0E2EE;
+}
+.customTable tr:nth-child(even) {
+    background-color: #EDF7F9;
+}
+.customTable tr:nth-child(odd) {
+    background-color: #EDF7F9;
+}
+.TitleCol{
+    text-align: left;
+}
+.DescriptionCol{
+    text-align: left;
+}
+.customButton {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dataBlock{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
